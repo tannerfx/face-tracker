@@ -135,4 +135,4 @@ class RETOPOVIEW_PT_rv_tool_menu(Panel):
             color_row = poles_settings_column.row()
             color_row.prop(obj, 'rv_poles_color', text='Poles Color', icon='COLOR', emboss=True)
             poles_settings_column.separator(factor=0.1)
-            poles_settings_column.prop(obj, 'rv_poles_size', text='Poles Size', slider=True)
+            poles_settings_column.prop(obj, 'rv_poles_size', text='Poles Size', slider=True
